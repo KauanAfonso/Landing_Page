@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header{
+    background-image: url("../img/inicial.png");
+    background-repeat: no-repeat;
+    background-size: cover;      /* Make the image cover the header area */
+    background-position: center; /* Center the image */
+    background-attachment: fixed;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /* Utilizado par os cards não sairem do contianer */
+}
+
+.container_header{
+ 
+}
+
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+nav div{
+    display: flex;
+}
+
+.container_titulos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 15rem 0;
+}
+
+.container_titulos h2{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.container_titulos p{
+    margin-top: .6rem;
+    font-size: 2em;
+    font-weight: 100;
+    color: rgb(209, 209, 209);
+}
+
+.container_titulos button{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: .8rem 3rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+section{
+    padding: 6rem;
+    background-attachment: fixed;
+}
+
+.prato_container{
+    display: flex;
+    align-items: center;
+}
+
+.prato_descricao{
+    text-align: justify;
+}
+
+.btn_padrao{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid #64746F;
+    padding: .8rem 3rem;
+    color: #64746F;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.section_two{
+    background-image: url('../img/inicial2.png');
+    background-repeat: no-repeat;
+    background-size: cover;      /* Make the image cover the header area */
+    background-position: center; /* Center the image */
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+.section_two button{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: .8rem 3rem;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
