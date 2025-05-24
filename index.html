@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./javascript/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,8 +24,8 @@
             </div>
 
             <div class="container_titulos">
-                <h2>SERVICE SELF RESTAURANT</h2>
-                <p>SERVICE SELF RESTAUTANTE</p>
+                <h2>Service self restaurante</h2>
+                <p>Service self restaurante</p>
                 <button class="btn_padrao">Saiba mais</button>
             </div>
         </div>
@@ -35,12 +36,13 @@
        
             <section>
                 <div class="container">
-                    <h2>Recomendações</h2>
+                    <h2  class="title_page">Recomendações</h2>
                     <div class="prato_container">
                         <div class="prato_imagem">
                             <img src="./img/pratp01.png" alt="">
                         </div>
                         <div class="prato_descricao">
+                            <h2>Nome do prato</h2>
                             <p>Experimente nosso prato especial, preparado com ingredientes frescos e selecionados para oferecer uma explosão de sabores a cada garfada. Com um equilíbrio perfeito entre texturas e temperos, essa receita exclusiva é uma verdadeira homenagem à culinária artesanal. Ideal para quem busca uma experiência gastronômica inesquecível, feita com carinho e paixão em cada detalhe.</p>
                             <button class="btn_padrao">Comprar</button>
                         </div>
@@ -53,7 +55,8 @@
                 <div class="container">
                     <div class="prato_container">
                         <div class="prato_descricao">
-                            <p>Experimente nosso prato especial, preparado com ingredientes frescos e selecionados para oferecer uma explosão de sabores a cada garfada. Com um equilíbrio perfeito entre texturas e temperos, essa receita exclusiva é uma verdadeira homenagem à culinária artesanal. Ideal para quem busca uma experiência gastronômica inesquecível, feita com carinho e paixão em cada detalhe.</p>
+                            <h2>Nome do prato</h2>
+                            <p>Experimente nosso prato especial, preparado com ingredientes frescos e selecionados para oferecer uma explosão de sabores a cada garfada. Essa receita exclusiva é uma verdadeira homenagem à culinária artesanal. Ideal para quem busca uma experiência gastronômica inesquecível, feita com carinho e paixão em cada detalhe.</p>
                             <button class="btn_padrao">Comprar</button>
                         </div>
                         <div class="prato_imagem">
@@ -62,15 +65,37 @@
                     </div>
                 </div>
             </section>
-
             <section>
                 <div class="container">
-                    <h1>Nosso cardápio</h1>
+                    <h1 class="title_page">Nosso cardápio</h1>
+
+                    <div class="nav_produtos">
+                        <nav>
+                            <li id="salgados" onclick="teste(event)"data-value='salgados'>Salgados</li>
+                            <li id="doces">Doces</li>
+                            <li id="bebidas">Bebidas</li>
+                        </nav>
+                    </div>
+
+                    <div class="prdoutos_sessao">
+                        <div class="produto">
+                            <img src="./img/pizza.png" alt="">
+                            <h3>Pizza Calabresa</h3>
+                            <p>ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum.</p>
+                        </div>
+                            <div class="produto">
+                            <img src="./img/pizza.png" alt="">
+                            <h3>Pizza Calabresa</h3>
+                            <p>ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum.</p>
+                        </div>
+                            <div class="produto">
+                            <img src="./img/pizza.png" alt="">
+                            <h3>Pizza Calabresa</h3>
+                            <p>ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum.</p>
+                        </div>
+                    </div>
                 </div>
-               
             </section>
-
-
     </main>
 
     <footer>

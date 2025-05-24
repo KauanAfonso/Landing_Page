@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: content-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Bubbler One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -33,6 +37,8 @@ nav{
 
 nav div{
     display: flex;
+    list-style: none;
+    gap: 1rem;
 }
 
 .container_titulos{
@@ -41,18 +47,21 @@ nav div{
     flex-direction: column;
     color: white;
     margin: 15rem 0;
+    text-transform: uppercase;
 }
 
 .container_titulos h2{
-    font-size: 3em;
-    font-weight: 900;
+    font-size: 6em;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .container_titulos p{
     margin-top: .6rem;
     font-size: 2em;
     font-weight: 100;
-    color: rgb(209, 209, 209);
+    color: rgb(230, 230, 230);
 }
 
 .container_titulos button{
@@ -76,7 +85,11 @@ section{
 }
 
 .prato_descricao{
-    text-align: justify;
+    text-align: center;
+}
+
+.prato_descricao h2{
+    margin-bottom: 1rem;
 }
 
 .btn_padrao{
@@ -90,7 +103,7 @@ section{
 }
 
 .section_two{
-    background-image: url('../img/inicial2.png');
+    background-image: url('../img/teste.jpg');
     background-repeat: no-repeat;
     background-size: cover;      /* Make the image cover the header area */
     background-position: center; /* Center the image */
@@ -107,4 +120,48 @@ section{
     color: #ffffff;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.title_page{
+    font-size: 2em;
+    color: #64746F;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.nav_produtos{
+    align-items: center;
+    margin: 1rem 0 4rem 0;
+}
+
+.nav_produtos nav{
+    color: #64746F;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.prdoutos_sessao{
+    display: flex;
+    gap: 1rem;
+}
+
+.prdoutos_sessao .produto{
+    align-items: center;
+    text-align: center;
+}
+
+.produto h3{
+    font-size: 1.8em;
+    color: #64746F;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 1rem 0;
 }
