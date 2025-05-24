@@ -146,6 +146,10 @@ section{
     font-weight: 600;
 }
 
+
+.nav_produtos nav li:hover{
+    border-bottom: 3px solid rgb(172, 172, 16);
+}
 .prdoutos_sessao{
     display: flex;
     gap: 1rem;
@@ -164,4 +168,8 @@ section{
     text-transform: uppercase;
     font-style: normal;
     margin: 1rem 0;
+}
+
+.produto img{
+    max-width: 200px;
 }
