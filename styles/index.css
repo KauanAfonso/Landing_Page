@@ -9,6 +9,12 @@
   font-style: normal;
 }
 
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
 
 header{
     background-image: url("../img/inicial.png");
@@ -74,10 +80,29 @@ nav div{
     cursor: pointer;
 }
 
+.container_titulos button:hover{
+       background-color:#ffffff;
+       transition: 1s;
+       color:#333;
+}
+
 section{
     padding: 6rem;
     background-attachment: fixed;
 }
+
+.fade-section {
+  opacity: 0;
+  /* transform: translateY(90px); */
+  transform: translateX(60px);
+  transition: all 0.8s ease;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 .prato_container{
     display: flex;
