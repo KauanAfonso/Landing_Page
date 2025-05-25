@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script src="./javascript/index.js" defer></script>
 </head>
 <body>
+    <!--Header com o conteudo inicial do site-->
     <header>
         <div class="container">
             <div class="container_header">
@@ -23,6 +25,7 @@
                 </nav>
             </div>
 
+             <!--Essa parte é destinada ao 'banner'-->
             <div class="container_titulos">
                 <h2>Service self restaurante</h2>
                 <p>Service self restaurante</p>
@@ -32,8 +35,7 @@
     </header>
 
     <main>
-
-       
+            <!--Essa section é destinada para recomendações, onde apresenta um produto-->
             <section>
                 <div class="container">
                     <h2  class="title_page">Recomendações</h2>
@@ -50,7 +52,7 @@
                 
                 </div>
             </section>
-
+            <!--Essa section é destinada para recomendações, onde apresenta um produto com um desing diferente-->
             <section class="section_two">
                 <div class="container">
                     <div class="prato_container">
@@ -65,10 +67,12 @@
                     </div>
                 </div>
             </section>
+            <!--Essa section destina ao cardapio-->
             <section>
                 <div class="container">
                     <h1 class="title_page">Nosso cardápio</h1>
 
+                    <!--Lista de opções que o user pode filtrar-->
                     <div class="nav_produtos">
                         <nav>
                             <li id="salgados" onclick="selecionar_produto(event)"data-value='Salgados'>Salgados</li>
@@ -77,18 +81,19 @@
                         </nav>
                     </div>
 
+                    <!--Produtos que aparecem por padrão na tela-->
                     <div class="prdoutos_sessao" id="prdoutos_sessao">
                         <div class="produto">
                             <img src="./img/pizza.png" alt="">
                             <h3>Pizza Calabresa</h3>
                             <p>ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum.</p>
                         </div>
-                            <div class="produto">
+                        <div class="produto">
                             <img src="./img/pizza.png" alt="">
                             <h3>Pizza Calabresa</h3>
                             <p>ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum.</p>
                         </div>
-                            <div class="produto">
+                        <div class="produto">
                             <img src="./img/pizza.png" alt="">
                             <h3>Pizza Calabresa</h3>
                             <p>ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum.</p>
@@ -96,11 +101,75 @@
                     </div>
                 </div>
             </section>
+
+            <!--Aside para localização ficticia do restaurante-->
+            <aside class="localizacao">
+                <div class="container">
+                    <h2 class="title_page">Nos encontre aqui</h2>
+                        <p>Estamos localizados em Campinas – SP. Clique no mapa para traçar sua rota.</p>
+                        <div class="mapa-container">
+                            <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8790948032684!2d-47.0608251850215!3d-23.50659708470627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c11df034cf6f%3A0x3cd8b2195ee0b441!2sRestaurante%20Exemplo!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                </div>
+            </aside>
     </main>
 
-    <footer>
-
+ 
+    <footer class="footer">
+        <div class="footer-container">
+            
+        <!-- Logo e descrição -->
+        <div class="footer-section">
+            <h2 class="footer-logo">Restaurante Service self </h2>
+            <p>Uma experiência gastronômica inesquecível. Ingredientes frescos, ambiente acolhedor e muito sabor.</p>
+        </div>
+            
+        <!-- Links úteis -->
+        <div class="footer-section">
+            <h3>Links úteis</h3>
+            <ul>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            </div>
+            
+            <!-- Horário -->
+            <div class="footer-section">
+            <h3>Horário de Funcionamento</h3>
+            <ul>
+                <li>Seg - Sex: 11h - 22h</li>
+                <li>Sábado: 12h - 23h</li>
+                <li>Domingo: 12h - 20h</li>
+            </ul>
+            </div>
+            <!-- Contato -->
+            <div class="footer-section">
+                <h3>Fale Conosco</h3>
+                <p><i class="fas fa-phone-alt"></i> (19) 99999-9999</p>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Gastronômica, 123 – Campinas/SP</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Direitos autorais -->
+        <div class="footer-bottom">
+            © 2025 Restaurante Serficie Self de Kauan Afonso. Todos os direitos reservados.
+        </div>
     </footer>
+
     
 </body>
 </html>
