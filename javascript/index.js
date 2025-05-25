@@ -1,19 +1,19 @@
 //produtos disponiveis para o cataogo
 const produtos = {
     "Salgados": [
-        ["Pizza Calabresa", "../img/pizza.png", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
-        ["Pizza Calabresa", "../img/pizza.png", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
-        ["Pizza Calabresa", "../img/pizza.png", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Pizza Calabresa", "/img/pizza.png", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Pizza Calabresa", "/img/pizza.png", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Pizza Calabresa", "/img/pizza.png", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
     ],
     "Doces": [
-        ["Bolo de chocolate", "../img/bolo.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
-        ["Bolo de chocolate", "../img/bolo.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
-        ["Bolo de chocolate", "../img/bolo.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Bolo de chocolate", "/img/bolo.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Bolo de chocolate", "/img/bolo.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Bolo de chocolate", "/img/bolo.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
     ],
     "Bebidas": [
-        ["Coca-Cola", "../img/coca.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
-        ["Coca-Cola", "../img/coca.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
-        ["Coca-Cola", "../img/coca.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Coca-Cola", "/img/coca.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Coca-Cola", "/img/coca.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
+        ["Coca-Cola", "/img/coca.webp", "ipsum atsumLorem ipsum atsumLorem ipsum atsumLorem ipsum atsum."],
     ]
 }
 
